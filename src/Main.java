@@ -7,4 +7,8 @@ public class Main {
     private static void printHello() {
         System.out.println("Hello!");
     }
+
+    private static void repeatMessage(int count, String message) {
+        System.out.println(message.repeat(count));
+    }
 }
