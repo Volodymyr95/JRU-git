@@ -4,6 +4,10 @@ public class Main {
         System.out.println("Hello Git!");
     }
 
+    private static void printHello() {
+        System.out.println("Hello!");
+    }
+
     private static void repeatMessage(int count, String message) {
         System.out.println(message.repeat(count));
     }
